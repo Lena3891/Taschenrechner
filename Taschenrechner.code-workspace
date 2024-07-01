@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "manifest"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Taschenrechner"
+  }
+}

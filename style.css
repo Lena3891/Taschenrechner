@@ -41,4 +41,25 @@
         .highlight {
             background-color: rgb(32, 31, 31);
         }
+        @media only screen and (max-width: 600px) {
+    td {
+        font-size: 18px; /* Kleinere Schriftgröße für kleinere Bildschirme */
+    }
+
+    #resultArea {
+        font-size: 36px; /* Kleinere Schriftgröße für Ergebnisbereich */
+        padding: 16px; /* Kleinere Innenpolsterung */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    td {
+        font-size: 16px; /* Noch kleinere Schriftgröße für sehr kleine Bildschirme */
+    }
+
+    #resultArea {
+        font-size: 24px; /* Noch kleinere Schriftgröße für Ergebnisbereich */
+        padding: 12px; /* Noch kleinere Innenpolsterung */
+    }
+}
         
