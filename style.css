@@ -62,4 +62,10 @@
         padding: 12px; /* Noch kleinere Innenpolsterung */
     }
 }
-        
+.text-center {
+    text-align: center;
+}
+       
+a {
+    color: black;
+}
